@@ -1,0 +1,17 @@
+.container__small-card-content {
+display: grid;
+grid-template-columns: 30% 70%;
+}
+
+.small-card__photo img {
+  width: 100%;
+}
+
+.small-card__title h2{
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.container__small-card__separator {
+  margin: 20px 0;
+}
