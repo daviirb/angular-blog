@@ -2,12 +2,12 @@
   <div class="container__small-card-content">
     <div class="small-card__photo">
       <img
-        src="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
+        src="{{ photoCover }}"
         alt=""
         >
     </div>
     <div class="small-card__title">
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+      <h2><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h2>
     </div>
   </div>
 
